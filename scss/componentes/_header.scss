@@ -1,0 +1,65 @@
+header {
+    top: 0;
+    z-index: 5;
+    .navbar {
+        background-color: $colorBlanco;
+        border-bottom: 0.25em solid $colorPrimario;
+        .container-fluid {
+            .navbar-brand {
+                img {
+                    width: 2.813em;
+                }
+            }
+            #navbarNavDropdown {
+                .navbar-nav {
+                    .nav-item {
+                        a {
+                            font-family: $bodyFont;
+                            font-weight: 700;
+                            color: $colorSecundario;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// MEDIA QUERIES 
+@media screen and 
+(min-width: 992px) {
+    header {
+        .navbar {
+            .container-fluid {
+                #navbarNavDropdown {
+                    .navbar-nav {
+                        .nav-item {
+                            a:hover {
+                                border: 0.063em solid $colorTerciario;
+                                border-radius: 20px;
+                                -webkit-box-shadow: 1px -9px 14px -7px rgba(253,152,48,1);
+                                -moz-box-shadow: 1px -9px 14px -7px rgba(253,152,48,1);
+                                box-shadow: 1px -9px 14px -7px rgba(253,152,48,1);
+                                color: $colorPrimario;
+                            }
+                        }
+                        .dropdown {
+                            .dropdown-menu {
+                                .dropdown-item {
+                                    border: none;
+                                    box-shadow: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
