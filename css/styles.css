@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 body {
-  background: #F2F5F7; }
+  background: #ffff; }
 
 .center {
   margin-left: auto;
@@ -12,6 +12,21 @@ body {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+#nosotros .sectionHeader .nosotros__title h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2.3em;
+  text-align: center;
+  color: #ffff; }
+
+#nosotros .sectionHeader .nosotros__text p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 2.2em;
+  text-align: center;
+  color: #141414;
+  white-space: pre-line; }
 
 header {
   top: 0;
@@ -162,3 +177,234 @@ header {
             #hero .heroContainer .heroBackground .heroContentContainer .heroText h1 {
               font-size: 3.625em;
               line-height: 2.563em; } }
+
+#nosotros .sectionHeader {
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  padding-bottom: 5%; }
+  #nosotros .sectionHeader .nosotros__title {
+    padding-top: 5%; }
+  #nosotros .sectionHeader .nosotros__text {
+    padding-top: 5%;
+    padding-left: 0.5em;
+    padding-right: 0.5em; }
+  #nosotros .sectionHeader .nosotros__img {
+    padding-top: 5%; }
+    #nosotros .sectionHeader .nosotros__img img {
+      width: 90%;
+      width: 15.625em;
+      max-width: 330px;
+      display: block;
+      margin: auto; }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #nosotros .sectionHeader .nosotros__title h2 {
+    font-size: 2.8em; }
+  #nosotros .sectionHeader .nosotros__text {
+    padding-left: 2.5em;
+    padding-right: 2.5em; }
+    #nosotros .sectionHeader .nosotros__text p {
+      font-size: 1.5em; }
+  #nosotros .sectionHeader .nosotros__img {
+    padding-top: 5%; }
+    #nosotros .sectionHeader .nosotros__img img {
+      width: 25em;
+      max-width: 490px;
+      display: block;
+      margin: auto; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #nosotros .sectionHeader .nosotros__title h2 {
+    font-size: 2.8em;
+    text-align: center; }
+  #nosotros .sectionHeader .nosotros_header_content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
+    #nosotros .sectionHeader .nosotros_header_content .nosotros__text {
+      padding-left: 2.5em;
+      padding-right: 2.5em;
+      position: relative;
+      display: inline-block; }
+      #nosotros .sectionHeader .nosotros_header_content .nosotros__text p {
+        font-size: 1.2em;
+        text-align: left;
+        white-space: normal; }
+    #nosotros .sectionHeader .nosotros_header_content .nosotros__img {
+      padding-top: 5%;
+      padding-right: 28px; }
+      #nosotros .sectionHeader .nosotros_header_content .nosotros__img img {
+        width: 18em;
+        max-width: 490px;
+        display: block;
+        margin: auto; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  #nosotros {
+    margin-top: 10%; }
+    #nosotros .sectionHeader .nosotros__title h2 {
+      font-size: 2.8em;
+      text-align: center; }
+    #nosotros .sectionHeader .nosotros_header_content {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; }
+      #nosotros .sectionHeader .nosotros_header_content .nosotros__text {
+        padding-left: 7.5em;
+        padding-right: 2.5em;
+        display: inline-block; }
+        #nosotros .sectionHeader .nosotros_header_content .nosotros__text p {
+          font-size: 1.5em;
+          text-align: left;
+          white-space: normal; }
+      #nosotros .sectionHeader .nosotros_header_content .nosotros__img {
+        padding-top: 5%;
+        padding-right: 65px; }
+        #nosotros .sectionHeader .nosotros_header_content .nosotros__img img {
+          width: 21em;
+          max-width: 490px;
+          display: block;
+          margin: auto; } }
+
+@media screen and (min-width: 1201px) {
+  #nosotros {
+    margin-top: 10%; }
+    #nosotros .sectionHeader .nosotros__title h2 {
+      font-size: 3em;
+      text-align: center; }
+    #nosotros .sectionHeader .nosotros_header_content {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; }
+      #nosotros .sectionHeader .nosotros_header_content .nosotros__text {
+        padding-left: 9.5em;
+        padding-right: 2.5em;
+        display: inline-block; }
+        #nosotros .sectionHeader .nosotros_header_content .nosotros__text p {
+          font-size: 1.7em;
+          text-align: left;
+          white-space: normal; }
+      #nosotros .sectionHeader .nosotros_header_content .nosotros__img {
+        padding-top: 5%;
+        padding-right: 125px; }
+        #nosotros .sectionHeader .nosotros_header_content .nosotros__img img {
+          width: 21em;
+          max-width: 490px;
+          display: block;
+          margin: auto; } }
+
+#nosotros .sectionContent {
+  padding-top: 10%; }
+  #nosotros .sectionContent .nosCards .nosCardContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8%; }
+    #nosotros .sectionContent .nosCards .nosCardContent .cardIMG img {
+      width: 6.25em; }
+    #nosotros .sectionContent .nosCards .nosCardContent .cardText {
+      text-align: center;
+      padding-top: 5%; }
+      #nosotros .sectionContent .nosCards .nosCardContent .cardText h3 {
+        font-family: "Fjalla One", sans-serif;
+        font-size: 2em;
+        color: #1A83DE; }
+      #nosotros .sectionContent .nosCards .nosCardContent .cardText p {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 1.2em;
+        color: #141414; }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #nosotros .sectionContent {
+    padding-top: 10%; }
+    #nosotros .sectionContent .nosCards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly; }
+      #nosotros .sectionContent .nosCards .nosCardContent {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 8%;
+        height: auto;
+        width: 60px; }
+        #nosotros .sectionContent .nosCards .nosCardContent .cardIMG img {
+          width: 6.25em; }
+        #nosotros .sectionContent .nosCards .nosCardContent .cardText {
+          text-align: center;
+          padding-top: 5%; }
+          #nosotros .sectionContent .nosCards .nosCardContent .cardText h3 {
+            font-family: "Fjalla One", sans-serif;
+            font-size: 2em;
+            color: #1A83DE; }
+          #nosotros .sectionContent .nosCards .nosCardContent .cardText p {
+            font-family: "Noto Sans", sans-serif;
+            font-weight: 400;
+            font-size: 1.2em;
+            color: #141414; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  #nosotros .sectionContent {
+    padding-top: 10%; }
+    #nosotros .sectionContent .nosCards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly; }
+      #nosotros .sectionContent .nosCards .nosCardContent {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 8%;
+        height: auto;
+        width: 100%;
+        flex: auto; }
+        #nosotros .sectionContent .nosCards .nosCardContent .cardIMG img {
+          width: 6.25em; }
+        #nosotros .sectionContent .nosCards .nosCardContent .cardText {
+          text-align: center;
+          padding-top: 5%; }
+          #nosotros .sectionContent .nosCards .nosCardContent .cardText h3 {
+            font-family: "Fjalla One", sans-serif;
+            font-size: 2em;
+            color: #1A83DE; }
+          #nosotros .sectionContent .nosCards .nosCardContent .cardText p {
+            font-family: "Noto Sans", sans-serif;
+            font-weight: 400;
+            font-size: 1.2em;
+            color: #141414; } }
+
+@media screen and (min-width: 1201px) {
+  #nosotros .sectionContent {
+    padding-top: 5%; }
+    #nosotros .sectionContent .nosCards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around; }
+      #nosotros .sectionContent .nosCards .nosCardContent {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 8%;
+        height: auto;
+        width: 100%;
+        flex: auto; }
+        #nosotros .sectionContent .nosCards .nosCardContent .cardIMG img {
+          width: 7em; }
+        #nosotros .sectionContent .nosCards .nosCardContent .cardText {
+          text-align: center;
+          padding-top: 5%; }
+          #nosotros .sectionContent .nosCards .nosCardContent .cardText h3 {
+            font-family: "Fjalla One", sans-serif;
+            font-size: 2.5em;
+            color: #1A83DE; }
+          #nosotros .sectionContent .nosCards .nosCardContent .cardText p {
+            font-family: "Noto Sans", sans-serif;
+            font-weight: 400;
+            font-size: 1.5em;
+            color: #141414; } }

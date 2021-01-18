@@ -18,7 +18,7 @@
     <meta property="og:image" content="https://ctpantoniomarte.edu.ar">
     <!-- Estilos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -41,7 +41,7 @@
                     <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Alumnos</a>
@@ -72,14 +72,62 @@
                     <div class="heroText center">
                         <p>¡BIENVENIDOS!</p>
                         <h1>Colegio Técnico Provincial "Antonio Martín Marte"</h1>
-
                     </div>
                 </div>
             </div>
         </div>
-
-
     </section>
+    <!-- NOSOTROS -->
+    <section id="nosotros">
+      <div class="sectionHeader ">
+          <div class="nosotros__title">
+              <h2>NOSOTROS</h2>
+          </div>
+          <div class="nosotros_header_content">
+              <div class="nosotros__text">
+                  <p>Nuestra institución educativa se encuentra en el Valle de Andorra de la ciudad de Ushuaia. 
+                      Nuestro diseño curricular oficial ofrece a los jóvenes de nuestra comunidad la Tecnicatura en TIC, una propuesta formativa que va en clave con los 
+                      nuevos desafíos de las tecnologías emergentes de diseño de software.</p>
+              </div>
+              <div class="nosotros__img center">
+                  <img src="images/nosotrosIMG.svg" alt="Ilustración digital de una computadora y un sistema online">
+              </div>
+          </div>
+      </div>
+      <div class="sectionContent center">
+        <div class="nosCards" data-aos="fade-up" data-aos-duration="3000">
+          <div class="nosCardContent">
+            <div class="cardIMG">
+              <img src="images/mision.svg" alt="Ilustración de una estrella">
+            </div>
+            <div class="cardText">
+              <h3>MISIÓN</h3>
+              <p>Inaugurada en el 2019, nuestra institución busca brindar educación de calidad y brindar oportunidades de formación actualizadas a las y los adolescentes de Ushuaia. </p>
+            </div>
+          </div>
+          <div class="nosCardContent">
+            <div class="cardIMG">
+              <img src="images/tecnico.svg" alt="Ilustración de una mujer con una notebook">
+            </div>
+            <div class="cardText">
+              <h3>MODALIDAD TÉCNICO PROFESIONAL</h3>
+              <p>Al finalizar el 7° año, nuestras egresadas y nuestros egresados obtiene el título de Técnico en Técnologías de la Información y las Comunicaciones.</p>
+            </div>
+          </div>
+          <div class="nosCardContent">
+            <div class="cardIMG">
+              <img src="images/actualizado.svg" alt="Ilustración de pantalla con código de Programación">
+            </div>
+            <div class="cardText">
+              <h3>CONTENIDO ACTUALIZADO</h3>
+              <p>El contenido de las asignaturas se actualiza durante cada ciclo escolar para trabajar con las herramientas más actualizadas del área.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+  </section>
     
 
 
@@ -95,5 +143,9 @@
 
 <!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>   
+  AOS.init(); 
+</script>
 </body>
 </html>

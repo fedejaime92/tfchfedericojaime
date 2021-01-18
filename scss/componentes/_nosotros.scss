@@ -1,0 +1,372 @@
+//HEADER NOSOTROS
+#nosotros {
+    .sectionHeader {
+        background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+        padding-bottom: 5%;
+        .nosotros__title {
+            padding-top: 5%;
+            h2 {
+                @extend %titulos;
+            }
+        }
+        .nosotros__text {
+            padding-top: 5%;
+            
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+
+            p {
+                @extend %parrafos;
+            }
+        }
+        .nosotros__img {
+            padding-top: 5%;
+            img {
+                width: 90%;
+                width: 15.625em;
+                max-width: 330px;
+                display: block;
+                margin:auto;
+            }
+        }
+    }
+}
+
+//MEDIA QUERIES HEADER NOSOTROS
+@media screen and 
+(min-width: 481px) 
+and (max-width: 768px) {
+    #nosotros {
+        .sectionHeader {
+            .nosotros__title {
+                h2 {
+                    font-size: 2.8em;
+                }
+            }
+            .nosotros__text {
+                padding-left: 2.5em;
+                padding-right: 2.5em;
+                p {
+                    font-size: 1.5em;
+                }
+            }
+            .nosotros__img {
+                padding-top: 5%;
+                img {
+                    width: 25em;
+                    max-width: 490px;
+                    display: block;
+                    margin:auto;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and 
+(min-width: 769px) 
+and (max-width: 1024px) {
+    #nosotros {
+        .sectionHeader {
+            .nosotros__title {
+                h2 {
+                    font-size: 2.8em;
+                    text-align: center;
+                }
+            }
+            .nosotros_header_content {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                .nosotros__text {
+                    padding-left: 2.5em;
+                    padding-right: 2.5em;
+                    position: relative;
+                    // float: right;
+                    display: inline-block;
+                    p {
+                        font-size: 1.2em;
+                        text-align: left;
+                        white-space: normal;
+                    }
+                }
+                .nosotros__img {
+                    padding-top: 5%;
+                    padding-right: 28px;
+                    img {
+                        width: 18em;
+                        max-width: 490px;
+                        display: block;
+                        margin:auto;
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+@media screen and 
+(min-width: 1025px) 
+and (max-width: 1200px) {
+    #nosotros {
+        margin-top: 10%;
+        .sectionHeader {
+            .nosotros__title {
+                h2 {
+                    font-size: 2.8em;
+                    text-align: center;
+                }
+            }
+            .nosotros_header_content {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                .nosotros__text {
+                    padding-left: 7.5em;
+                    padding-right: 2.5em;
+                    // float: right;
+                    display: inline-block;
+                    p {
+                        font-size: 1.5em;
+                        text-align: left;
+                        white-space: normal;
+                    }
+                }
+                .nosotros__img {
+                    padding-top: 5%;
+                    padding-right: 65px;
+                    img {
+                        width: 21em;
+                        max-width: 490px;
+                        display: block;
+                        margin:auto;
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+@media screen and 
+(min-width: 1201px) {
+    #nosotros {
+        margin-top: 10%;
+        .sectionHeader {
+            .nosotros__title {
+                h2 {
+                    font-size: 3em;
+                    text-align: center;
+                }
+            }
+            .nosotros_header_content {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                .nosotros__text {
+                    padding-left: 9.5em;
+                    padding-right: 2.5em;
+                    // float: right;
+                    display: inline-block;
+                    p {
+                        font-size: 1.7em;
+                        text-align: left;
+                        white-space: normal;
+                    }
+                }
+                .nosotros__img {
+                    padding-top: 5%;
+                    padding-right: 125px;
+                    img {
+                        width: 21em;
+                        max-width: 490px;
+                        display: block;
+                        margin:auto;
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+// NOSOTROS CARDS
+
+#nosotros {
+    .sectionContent {
+        padding-top: 10%;
+        .nosCards {
+            .nosCardContent {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                padding: 8%;
+                .cardIMG {
+                    img {
+                        width: 6.25em;
+                    }
+                }
+                .cardText {
+                    text-align: center;
+                    padding-top: 5%;
+                    h3 {
+                        font-family: $titlesFont;
+                        font-size: 2em;
+                        color: $colorSecundario;
+                    }
+                    p {
+                        font-family: $bodyFont;
+                        font-weight: 400;
+                        font-size: 1.2em;
+                        color: $colorOscuro;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MQ NOSOTROS CARDS
+@media screen and 
+(min-width: 769px) 
+and (max-width: 1024px) {
+    #nosotros {
+        .sectionContent {
+            padding-top: 10%;
+            .nosCards {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-evenly;
+                .nosCardContent {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    padding: 8%;
+                    height: auto;
+                    width: 60px;
+                    .cardIMG {
+                        img {
+                            width: 6.25em;
+                        }
+                    }
+                    .cardText {
+                        text-align: center;
+                        padding-top: 5%;
+                        h3 {
+                            font-family: $titlesFont;
+                            font-size: 2em;
+                            color: $colorSecundario;
+                        }
+                        p {
+                            font-family: $bodyFont;
+                            font-weight: 400;
+                            font-size: 1.2em;
+                            color: $colorOscuro;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and 
+(min-width: 1025px) 
+and (max-width: 1200px) {
+    #nosotros {
+        .sectionContent {
+            padding-top: 10%;
+            .nosCards {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-evenly;
+                .nosCardContent {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    padding: 8%;
+                    height: auto;
+                    width: 100%;
+                    flex: auto;
+                    .cardIMG {
+                        img {
+                            width: 6.25em;
+                        }
+                    }
+                    .cardText {
+                        text-align: center;
+                        padding-top: 5%;
+                        h3 {
+                            font-family: $titlesFont;
+                            font-size: 2em;
+                            color: $colorSecundario;
+                        }
+                        p {
+                            font-family: $bodyFont;
+                            font-weight: 400;
+                            font-size: 1.2em;
+                            color: $colorOscuro;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and 
+(min-width: 1201px) {
+    #nosotros {
+        .sectionContent {
+            padding-top: 5%;
+            .nosCards {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                .nosCardContent {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    padding: 8%;
+                    height: auto;
+                    width: 100%;
+                    flex: auto;
+                    .cardIMG {
+                        img {
+                            width: 7em;
+                        }
+                    }
+                    .cardText {
+                        text-align: center;
+                        padding-top: 5%;
+                        h3 {
+                            font-family: $titlesFont;
+                            font-size: 2.5em;
+                            color: $colorSecundario;
+                        }
+                        p {
+                            font-family: $bodyFont;
+                            font-weight: 400;
+                            font-size: 1.5em;
+                            color: $colorOscuro;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

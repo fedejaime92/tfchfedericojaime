@@ -1,0 +1,16 @@
+%titulos {
+    font-family: $titlesFont;
+    font-size: 2.3em;
+    text-align: center;
+    color: $colorBlanco;
+}
+
+%parrafos {
+    font-family: $bodyFont;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 2.2em;
+    text-align: center;
+    color: $colorOscuro;
+    white-space: pre-line;
+}
