@@ -28,6 +28,12 @@ body {
   color: #141414;
   white-space: pre-line; }
 
+#nosotros .sectionContent .nosTeamCards h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: #1A83DE; }
+
 header {
   top: 0;
   z-index: 5; }
@@ -57,8 +63,7 @@ header {
 #hero {
   margin-top: 7.313em; }
   #hero .heroContainer {
-    padding-top: 14.688em;
-    padding-bottom: 14.688em; }
+    padding-top: 14.688em; }
     #hero .heroContainer .heroBackground {
       display: flow-root;
       background: #FFD5AD;
@@ -138,7 +143,7 @@ header {
           right: 8em; }
           #hero .heroContainer .heroBackground .heroContentContainer .heroIMG img {
             width: 86.75em;
-            max-width: 630px; }
+            max-width: 600px; }
             #hero .heroContainer .heroBackground .heroContentContainer .heroIMG img:hover {
               opacity: 0.8; }
         #hero .heroContainer .heroBackground .heroContentContainer .heroText {
@@ -166,7 +171,8 @@ header {
             top: 1.812em;
             right: 14em; }
             #hero .heroContainer .heroBackground .heroContentContainer .heroIMG img {
-              width: 53.75em; }
+              width: 28.125em;
+              max-width: 550px; }
               #hero .heroContainer .heroBackground .heroContentContainer .heroIMG img:hover {
                 opacity: 0.8; }
           #hero .heroContainer .heroBackground .heroContentContainer .heroText {
@@ -178,66 +184,72 @@ header {
               font-size: 3.625em;
               line-height: 2.563em; } }
 
-#nosotros .sectionHeader {
-  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-  padding-bottom: 5%; }
-  #nosotros .sectionHeader .nosotros__title {
-    padding-top: 5%; }
-  #nosotros .sectionHeader .nosotros__text {
-    padding-top: 5%;
-    padding-left: 0.5em;
-    padding-right: 0.5em; }
-  #nosotros .sectionHeader .nosotros__img {
-    padding-top: 5%; }
-    #nosotros .sectionHeader .nosotros__img img {
-      width: 90%;
-      width: 15.625em;
-      max-width: 330px;
-      display: block;
-      margin: auto; }
+#nosotros {
+  padding-top: 24%; }
+  #nosotros .sectionHeader {
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    padding-bottom: 5%; }
+    #nosotros .sectionHeader .nosotros__title {
+      padding-top: 5%; }
+    #nosotros .sectionHeader .nosotros__text {
+      padding-top: 5%;
+      padding-left: 0.5em;
+      padding-right: 0.5em; }
+    #nosotros .sectionHeader .nosotros__img {
+      padding-top: 5%; }
+      #nosotros .sectionHeader .nosotros__img img {
+        width: 90%;
+        width: 15.625em;
+        max-width: 330px;
+        display: block;
+        margin: auto; }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  #nosotros .sectionHeader .nosotros__title h2 {
-    font-size: 2.8em; }
-  #nosotros .sectionHeader .nosotros__text {
-    padding-left: 2.5em;
-    padding-right: 2.5em; }
-    #nosotros .sectionHeader .nosotros__text p {
-      font-size: 1.5em; }
-  #nosotros .sectionHeader .nosotros__img {
-    padding-top: 5%; }
-    #nosotros .sectionHeader .nosotros__img img {
-      width: 25em;
-      max-width: 490px;
-      display: block;
-      margin: auto; } }
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  #nosotros .sectionHeader .nosotros__title h2 {
-    font-size: 2.8em;
-    text-align: center; }
-  #nosotros .sectionHeader .nosotros_header_content {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center; }
-    #nosotros .sectionHeader .nosotros_header_content .nosotros__text {
+  #nosotros {
+    padding-top: 15%; }
+    #nosotros .sectionHeader .nosotros__title h2 {
+      font-size: 2.8em; }
+    #nosotros .sectionHeader .nosotros__text {
       padding-left: 2.5em;
-      padding-right: 2.5em;
-      position: relative;
-      display: inline-block; }
-      #nosotros .sectionHeader .nosotros_header_content .nosotros__text p {
-        font-size: 1.2em;
-        text-align: left;
-        white-space: normal; }
-    #nosotros .sectionHeader .nosotros_header_content .nosotros__img {
-      padding-top: 5%;
-      padding-right: 28px; }
-      #nosotros .sectionHeader .nosotros_header_content .nosotros__img img {
-        width: 18em;
+      padding-right: 2.5em; }
+      #nosotros .sectionHeader .nosotros__text p {
+        font-size: 1.5em; }
+    #nosotros .sectionHeader .nosotros__img {
+      padding-top: 5%; }
+      #nosotros .sectionHeader .nosotros__img img {
+        width: 25em;
         max-width: 490px;
         display: block;
         margin: auto; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #nosotros {
+    padding-top: 11%; }
+    #nosotros .sectionHeader .nosotros__title h2 {
+      font-size: 2.8em;
+      text-align: center; }
+    #nosotros .sectionHeader .nosotros_header_content {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; }
+      #nosotros .sectionHeader .nosotros_header_content .nosotros__text {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        position: relative;
+        display: inline-block; }
+        #nosotros .sectionHeader .nosotros_header_content .nosotros__text p {
+          font-size: 1.2em;
+          text-align: left;
+          white-space: normal; }
+      #nosotros .sectionHeader .nosotros_header_content .nosotros__img {
+        padding-top: 5%;
+        padding-right: 28px; }
+        #nosotros .sectionHeader .nosotros_header_content .nosotros__img img {
+          width: 18em;
+          max-width: 490px;
+          display: block;
+          margin: auto; } }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   #nosotros {
@@ -408,3 +420,74 @@ header {
             font-weight: 400;
             font-size: 1.5em;
             color: #141414; } }
+
+#nosotros .sectionContent .nosTeamCards {
+  padding-top: 10%; }
+  #nosotros .sectionContent .nosTeamCards h2 {
+    padding-bottom: 25%; }
+  #nosotros .sectionContent .nosTeamCards .teamCardsContent {
+    border: 1px solid #7FBBF0;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10%; }
+    #nosotros .sectionContent .nosTeamCards .teamCardsContent .cardIMG {
+      width: 80%;
+      display: block;
+      margin: auto;
+      padding-top: 4%;
+      padding-bottom: 4%; }
+    #nosotros .sectionContent .nosTeamCards .teamCardsContent .cardText {
+      width: 100%; }
+      #nosotros .sectionContent .nosTeamCards .teamCardsContent .cardText h3 {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 700;
+        background: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+        color: #ffff;
+        text-align: center; }
+      #nosotros .sectionContent .nosTeamCards .teamCardsContent .cardText p {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: small;
+        color: #141414;
+        text-align: center; }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #nosotros .sectionContent .nosTeamCards {
+    padding-top: 5%; }
+    #nosotros .sectionContent .nosTeamCards h2 {
+      padding-bottom: 15%; }
+    #nosotros .sectionContent .nosTeamCards .teamCardsContent {
+      border: 2px solid #7FBBF0;
+      width: 60%; }
+      #nosotros .sectionContent .nosTeamCards .teamCardsContent .cardIMG {
+        width: 70%; }
+      #nosotros .sectionContent .nosTeamCards .teamCardsContent .cardText p {
+        font-size: 2.5vw; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #nosotros .sectionContent .nosTeamCards {
+    padding-top: 5%; }
+    #nosotros .sectionContent .nosTeamCards h2 {
+      padding-bottom: 15%; }
+    #nosotros .sectionContent .nosTeamCards .teamCardsContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between; }
+      #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent {
+        border: 2px solid #7FBBF0;
+        width: 200px;
+        height: 400px; }
+        #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardIMG img {
+          width: 60%;
+          display: block;
+          margin: auto; }
+        #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardText p {
+          font-size: 2.5vw; }
+        #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardText .mail {
+          font-size: small;
+          overflow-wrap: break-word;
+          text-align: center;
+          padding-left: 5%;
+          padding-right: 5%; } }

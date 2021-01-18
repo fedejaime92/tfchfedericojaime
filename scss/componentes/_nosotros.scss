@@ -1,5 +1,6 @@
 //HEADER NOSOTROS
 #nosotros {
+    padding-top: 24%;
     .sectionHeader {
         background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
         padding-bottom: 5%;
@@ -37,6 +38,7 @@
 (min-width: 481px) 
 and (max-width: 768px) {
     #nosotros {
+        padding-top: 15%;
         .sectionHeader {
             .nosotros__title {
                 h2 {
@@ -68,6 +70,7 @@ and (max-width: 768px) {
 (min-width: 769px) 
 and (max-width: 1024px) {
     #nosotros {
+        padding-top: 11%;
         .sectionHeader {
             .nosotros__title {
                 h2 {
@@ -369,4 +372,122 @@ and (max-width: 1200px) {
         }
     }
 
+}
+
+// NOSOTROS TEAM
+#nosotros {
+    .sectionContent {
+        .nosTeamCards {
+            padding-top: 10%;
+            h2 {
+                @extend %subtitulos;
+                padding-bottom: 25%;
+            }
+            .teamCardsContent {
+                border: 1px solid $colorSecundarioLight;
+                border-radius: 20px;
+                width: 90%;
+                margin: auto;
+                margin-bottom: 10%;
+                .cardIMG {
+                    width: 80%;
+                    display: block;
+                    margin: auto;
+                    padding-top: 4%;
+                    padding-bottom: 4%;
+                }
+                .cardText {
+                    width: 100%;
+                    h3 {
+                        font-family: $bodyFont;
+                        font-weight: 700;
+                        background: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+                        color: $colorBlanco;
+                        text-align: center;
+                    }
+                    p {
+                        font-family: $bodyFont;
+                        font-weight: 400;
+                        font-size: small;
+                        color: $colorOscuro;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MQ NOSOTROS EQUIPO CARDS
+@media screen and 
+(min-width: 481px) 
+and (max-width: 768px) {
+    #nosotros {
+        .sectionContent {
+            .nosTeamCards {
+                padding-top: 5%;
+                h2 {
+                    padding-bottom: 15%;
+                }
+                .teamCardsContent {
+                    border: 2px solid $colorSecundarioLight;
+                    width: 60%;
+                    
+                    .cardIMG {
+                        width: 70%;
+                    }
+                    .cardText {
+                          p {
+                            font-size: 2.5vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and 
+(min-width: 769px) 
+and (max-width: 1024px) {
+    #nosotros {
+        .sectionContent {
+            .nosTeamCards {
+                padding-top: 5%;
+                h2 {
+                    padding-bottom: 15%;
+                }
+                .teamCardsContainer {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    .teamCardsContent {
+                        border: 2px solid $colorSecundarioLight;
+                        width: 200px;
+                        height: 400px;                    
+                        .cardIMG {
+                            img {
+                                width: 60%;
+                                display: block;
+                                margin: auto;
+                            }
+                        }
+                        .cardText {
+                              p {
+                                font-size: 2.5vw;
+                            }
+                            .mail {
+                                font-size: small;
+                                overflow-wrap: break-word;
+                                text-align: center;
+                                padding-left: 5%;
+                                padding-right: 5%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

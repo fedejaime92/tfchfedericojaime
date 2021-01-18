@@ -2,7 +2,6 @@
     margin-top: 7.313em;
         .heroContainer {
             padding-top: 14.688em;
-            padding-bottom: 14.688em;
             .heroBackground {
                 display: flow-root;
                 background: $colorPrimarioLight;
@@ -135,7 +134,7 @@
                         right: 8em;
                         img {
                             width: 86.75em;
-                            max-width: 630px;
+                            max-width: 600px;
                             &:hover {
                                 opacity: 0.8;
                             }
@@ -175,7 +174,8 @@
                         top: 1.812em;
                         right: 14em;
                         img {
-                            width: 53.75em;
+                            width: 28.125em;
+                            max-width: 550px;
                             &:hover {
                                 opacity: 0.8;
                             }

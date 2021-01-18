@@ -14,3 +14,10 @@
     color: $colorOscuro;
     white-space: pre-line;
 }
+
+%subtitulos {
+    font-family: $titlesFont;
+    font-size: 2em;
+    text-align: center;
+    color: $colorSecundario;
+}
