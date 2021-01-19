@@ -160,7 +160,7 @@ and (max-width: 1200px) {
 @media screen and 
 (min-width: 1201px) {
     #nosotros {
-        margin-top: 10%;
+        margin-top: 5%;
         .sectionHeader {
             .nosotros__title {
                 h2 {
@@ -395,6 +395,11 @@ and (max-width: 1200px) {
                     margin: auto;
                     padding-top: 4%;
                     padding-bottom: 4%;
+                    img {
+                        width: 80%;
+                        margin: auto;
+                        display: block;
+                    }
                 }
                 .cardText {
                     width: 100%;
@@ -464,25 +469,90 @@ and (max-width: 1024px) {
                     justify-content: space-between;
                     .teamCardsContent {
                         border: 2px solid $colorSecundarioLight;
-                        width: 200px;
+                        width: 250px;
                         height: 400px;                    
                         .cardIMG {
                             img {
-                                width: 60%;
-                                display: block;
-                                margin: auto;
+                                width: 90%;
                             }
                         }
                         .cardText {
                               p {
-                                font-size: 2.5vw;
+                                font-size: 2.3vw;
                             }
-                            .mail {
-                                font-size: small;
-                                overflow-wrap: break-word;
-                                text-align: center;
-                                padding-left: 5%;
-                                padding-right: 5%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and 
+(min-width: 1025px) 
+and (max-width: 1200px) {
+    #nosotros {
+        .sectionContent {
+            .nosTeamCards {
+                padding-top: 5%;
+                h2 {
+                    padding-bottom: 15%;
+                }
+                .teamCardsContainer {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    .teamCardsContent {
+                        border: 2px solid $colorSecundarioLight;
+                        width: 290px;
+                        height: 410px;                    
+                        .cardIMG {
+                            img {
+                                width: 90%;
+                            }
+                        }
+                        .cardText {
+                              p {
+                                font-size: 2vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and 
+(min-width: 1201px) {
+    #nosotros {
+        .sectionContent {
+            .nosTeamCards {
+                padding-top: 5%;
+                h2 {
+                    padding-bottom: 5%;
+                }
+                .teamCardsContainer {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    .teamCardsContent {
+                        border: 2px solid $colorSecundarioLight;
+                        width: 350px;
+                        height: 470px;                    
+                        .cardIMG {
+                            img {
+                                width: 90%;
+                                &:hover {
+                                    opacity: 0.5;
+                                }
+                            }
+                        }
+                        .cardText {
+                              p {
+                                font-size: 1.563em;
                             }
                         }
                     }

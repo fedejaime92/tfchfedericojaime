@@ -281,7 +281,7 @@ header {
 
 @media screen and (min-width: 1201px) {
   #nosotros {
-    margin-top: 10%; }
+    margin-top: 5%; }
     #nosotros .sectionHeader .nosotros__title h2 {
       font-size: 3em;
       text-align: center; }
@@ -437,6 +437,10 @@ header {
       margin: auto;
       padding-top: 4%;
       padding-bottom: 4%; }
+      #nosotros .sectionContent .nosTeamCards .teamCardsContent .cardIMG img {
+        width: 80%;
+        margin: auto;
+        display: block; }
     #nosotros .sectionContent .nosTeamCards .teamCardsContent .cardText {
       width: 100%; }
       #nosotros .sectionContent .nosTeamCards .teamCardsContent .cardText h3 {
@@ -477,17 +481,49 @@ header {
       justify-content: space-between; }
       #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent {
         border: 2px solid #7FBBF0;
-        width: 200px;
+        width: 250px;
         height: 400px; }
         #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardIMG img {
-          width: 60%;
-          display: block;
-          margin: auto; }
+          width: 90%; }
         #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardText p {
-          font-size: 2.5vw; }
-        #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardText .mail {
-          font-size: small;
-          overflow-wrap: break-word;
-          text-align: center;
-          padding-left: 5%;
-          padding-right: 5%; } }
+          font-size: 2.3vw; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  #nosotros .sectionContent .nosTeamCards {
+    padding-top: 5%; }
+    #nosotros .sectionContent .nosTeamCards h2 {
+      padding-bottom: 15%; }
+    #nosotros .sectionContent .nosTeamCards .teamCardsContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between; }
+      #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent {
+        border: 2px solid #7FBBF0;
+        width: 290px;
+        height: 410px; }
+        #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardIMG img {
+          width: 90%; }
+        #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardText p {
+          font-size: 2vw; } }
+
+@media screen and (min-width: 1201px) {
+  #nosotros .sectionContent .nosTeamCards {
+    padding-top: 5%; }
+    #nosotros .sectionContent .nosTeamCards h2 {
+      padding-bottom: 5%; }
+    #nosotros .sectionContent .nosTeamCards .teamCardsContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between; }
+      #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent {
+        border: 2px solid #7FBBF0;
+        width: 350px;
+        height: 470px; }
+        #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardIMG img {
+          width: 90%; }
+          #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardIMG img:hover {
+            opacity: 0.5; }
+        #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardText p {
+          font-size: 1.563em; } }
