@@ -7,6 +7,28 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
+#contactoHeaderIndex {
+  margin-top: 30px; }
+  #contactoHeaderIndex .Cont {
+    background: #FD9830; }
+    #contactoHeaderIndex .Cont .contenido {
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px; }
+      #contactoHeaderIndex .Cont .contenido a {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 700;
+        color: #FD9830;
+        text-decoration: none;
+        border: 1px solid #ffff;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: #F4F5F5; }
+        #contactoHeaderIndex .Cont .contenido a:hover {
+          opacity: 0.9; }
+
 @keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -880,3 +902,28 @@ header {
         font-size: 28px; }
       #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard p {
         font-size: 18px; } }
+
+footer .schoolInf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(../images/bkgimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+  footer .schoolInf .row .col-md-12 img {
+    width: 20%;
+    display: block;
+    margin: auto; }
+  footer .schoolInf .row .col-md-12 h4 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: #ffff;
+    text-align: center; }
+  footer .schoolInf .row .col-md-12 p {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: #ffff;
+    text-align: center; }

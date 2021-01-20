@@ -1,0 +1,35 @@
+footer {
+    .schoolInf {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-image: url(../images/bkgimage.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        .row {
+            .col-md-12 {
+                img {
+                        width: 20%;
+                        display: block;
+                        margin: auto;
+                }
+                h4 {
+                    font-family: $bodyFont;
+                    font-weight: 400;
+                    color: $colorBlanco;
+                    text-align: center;
+                }
+                p {
+                    font-family: $bodyFont;
+                    font-weight: 400;
+                    color: $colorBlanco;
+                    text-align: center;
+                }
+            }
+        }
+        
+    }     
+}
