@@ -21,3 +21,24 @@
     text-align: center;
     color: $colorSecundario;
 }
+
+%botones {
+    border: 1px solid $colorPrimario;
+    border-radius: 15px;
+    background-color: $colorPrimario;
+    &:hover {
+        border: $colorSecundario;
+        background-color: $colorSecundario;
+    }
+    }
+
+%linksbtn {
+    text-decoration: none;
+    font-family: $bodyFont;
+    font-weight: 700;
+    color: $colorBlanco;
+    text-transform: uppercase;
+    &:hover {
+        color: $colorBlanco;
+    }
+}

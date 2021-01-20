@@ -13,13 +13,13 @@ body {
   100% {
     opacity: 1; } }
 
-#nosotros .sectionHeader .nosotros__title h2 {
+#nosotros .sectionHeader .nosotros__title h2, #alumnos .sectionHeader .alumnos__title h2, #docentes .sectionHeader .docentes__title h2 {
   font-family: "Fjalla One", sans-serif;
   font-size: 2.3em;
   text-align: center;
   color: #ffff; }
 
-#nosotros .sectionHeader .nosotros__text p {
+#nosotros .sectionHeader .nosotros__text p, #alumnos .sectionHeader .alumnos__text p, #docentes .sectionHeader .docentes__text p {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 1em;
@@ -33,6 +33,23 @@ body {
   font-size: 2em;
   text-align: center;
   color: #1A83DE; }
+
+#alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard .btn button, #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard .btn button {
+  border: 1px solid #FD9830;
+  border-radius: 15px;
+  background-color: #FD9830; }
+  #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard .btn button:hover, #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard .btn button:hover {
+    border: #1A83DE;
+    background-color: #1A83DE; }
+
+.btn_a {
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  color: #ffff;
+  text-transform: uppercase; }
+  .btn_a:hover {
+    color: #ffff; }
 
 header {
   top: 0;
@@ -527,3 +544,339 @@ header {
             opacity: 0.5; }
         #nosotros .sectionContent .nosTeamCards .teamCardsContainer .teamCardsContent .cardText p {
           font-size: 1.563em; } }
+
+#alumnos {
+  padding-top: 24%; }
+  #alumnos .sectionHeader {
+    background-image: linear-gradient(to top, #F8BB95 0%, #E93F70 100%);
+    padding-bottom: 5%; }
+    #alumnos .sectionHeader .alumnos__title {
+      padding-top: 5%; }
+    #alumnos .sectionHeader .alumnos__text {
+      padding-top: 5%;
+      padding-left: 0.5em;
+      padding-right: 0.5em; }
+    #alumnos .sectionHeader .alumnos__img {
+      padding-top: 5%; }
+      #alumnos .sectionHeader .alumnos__img img {
+        width: 90%;
+        width: 15.625em;
+        max-width: 330px;
+        display: block;
+        margin: auto; }
+  #alumnos .sectionContent .alumnos__cards {
+    padding-top: 10%; }
+    #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard {
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-bottom: 20%; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard img {
+        width: 40%;
+        display: block;
+        margin: auto; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard h3 {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 700;
+        color: #FD9830;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 2em; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard p {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 1.2em;
+        color: #141414;
+        text-align: center; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #alumnos {
+    padding-top: 15%; }
+    #alumnos .sectionHeader .alumnos__title h2 {
+      font-size: 2.8em; }
+    #alumnos .sectionHeader .alumnos__text {
+      padding-left: 2.5em;
+      padding-right: 2.5em; }
+      #alumnos .sectionHeader .alumnos__text p {
+        font-size: 1.5em; }
+    #alumnos .sectionHeader .alumnos__img {
+      padding-top: 5%; }
+      #alumnos .sectionHeader .alumnos__img img {
+        width: 25em;
+        max-width: 490px;
+        display: block;
+        margin: auto; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #alumnos {
+    padding-top: 11%; }
+    #alumnos .sectionHeader .alumnos__title h2 {
+      font-size: 2.8em;
+      text-align: center; }
+    #alumnos .sectionHeader .alumnos_header_content {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; }
+      #alumnos .sectionHeader .alumnos_header_content .alumnos__text {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        position: relative;
+        display: inline-block; }
+        #alumnos .sectionHeader .alumnos_header_content .alumnos__text p {
+          font-size: 1.2em;
+          text-align: left;
+          white-space: normal; }
+      #alumnos .sectionHeader .alumnos_header_content .alumnos__img {
+        padding-top: 5%;
+        padding-right: 28px; }
+        #alumnos .sectionHeader .alumnos_header_content .alumnos__img img {
+          width: 18em;
+          max-width: 490px;
+          display: block;
+          margin: auto; } }
+
+@media screen and (min-width: 1025px) {
+  #alumnos {
+    padding-top: 11%; }
+    #alumnos .sectionHeader .alumnos__title h2 {
+      font-size: 3em;
+      text-align: center; }
+    #alumnos .sectionHeader .alumnos_header_content {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; }
+      #alumnos .sectionHeader .alumnos_header_content .alumnos__text {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        position: relative;
+        display: inline-block; }
+        #alumnos .sectionHeader .alumnos_header_content .alumnos__text p {
+          font-size: 1.8em;
+          text-align: left;
+          white-space: normal; }
+      #alumnos .sectionHeader .alumnos_header_content .alumnos__img {
+        padding-top: 5%;
+        padding-right: 28px; }
+        #alumnos .sectionHeader .alumnos_header_content .alumnos__img img {
+          width: 18em;
+          max-width: 490px;
+          display: block;
+          margin: auto; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #alumnos .sectionContent {
+    padding-top: 10%; }
+    #alumnos .sectionContent .alumnos__cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard img {
+        width: 40%; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard h3 {
+        font-size: 25px; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard p {
+        font-size: 16px; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  #alumnos .sectionContent {
+    padding-top: 10%; }
+    #alumnos .sectionContent .alumnos__cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard img {
+        width: 45%; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard h3 {
+        font-size: 28px; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard p {
+        font-size: 18px; } }
+
+@media screen and (min-width: 1201px) {
+  #alumnos .sectionContent {
+    padding-top: 5%; }
+    #alumnos .sectionContent .alumnos__cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard img {
+        width: 30%; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard h3 {
+        font-size: 28px; }
+      #alumnos .sectionContent .alumnos__cards .alumnosCardsContainer .aluCard p {
+        font-size: 18px; } }
+
+#docentes {
+  padding-top: 24%; }
+  #docentes .sectionHeader {
+    background-image: linear-gradient(to top, #4242FF 0%, #E93F70 100%);
+    padding-bottom: 5%; }
+    #docentes .sectionHeader .docentes__title {
+      padding-top: 5%; }
+    #docentes .sectionHeader .docentes__text {
+      padding-top: 5%;
+      padding-left: 0.5em;
+      padding-right: 0.5em; }
+    #docentes .sectionHeader .docentes__img {
+      padding-top: 5%; }
+      #docentes .sectionHeader .docentes__img img {
+        width: 90%;
+        width: 15.625em;
+        max-width: 330px;
+        display: block;
+        margin: auto; }
+  #docentes .sectionContent .docentes__cards {
+    padding-top: 10%; }
+    #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard {
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-bottom: 20%; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard img {
+        width: 40%;
+        display: block;
+        margin: auto; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard h3 {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 700;
+        color: #FD9830;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 2em; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard p {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 1.2em;
+        color: #141414;
+        text-align: center; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #docentes {
+    padding-top: 15%; }
+    #docentes .sectionHeader .docentes__title h2 {
+      font-size: 2.8em; }
+    #docentes .sectionHeader .docentes__text {
+      padding-left: 2.5em;
+      padding-right: 2.5em; }
+      #docentes .sectionHeader .docentes__text p {
+        font-size: 1.5em; }
+    #docentes .sectionHeader .docentes__img {
+      padding-top: 5%; }
+      #docentes .sectionHeader .docentes__img img {
+        width: 25em;
+        max-width: 490px;
+        display: block;
+        margin: auto; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #docentes {
+    padding-top: 11%; }
+    #docentes .sectionHeader .docentes__title h2 {
+      font-size: 2.8em;
+      text-align: center; }
+    #docentes .sectionHeader .docentes_header_content {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; }
+      #docentes .sectionHeader .docentes_header_content .docentes__text {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        position: relative;
+        display: inline-block; }
+        #docentes .sectionHeader .docentes_header_content .docentes__text p {
+          font-size: 1.2em;
+          text-align: left;
+          white-space: normal; }
+      #docentes .sectionHeader .docentes_header_content .docentes__img {
+        padding-top: 5%;
+        padding-right: 28px; }
+        #docentes .sectionHeader .docentes_header_content .docentes__img img {
+          width: 18em;
+          max-width: 490px;
+          display: block;
+          margin: auto; } }
+
+@media screen and (min-width: 1025px) {
+  #docentes {
+    padding-top: 11%; }
+    #docentes .sectionHeader .docentes__title h2 {
+      font-size: 3em;
+      text-align: center; }
+    #docentes .sectionHeader .docentes_header_content {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; }
+      #docentes .sectionHeader .docentes_header_content .docentes__text {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        position: relative;
+        display: inline-block; }
+        #docentes .sectionHeader .docentes_header_content .docentes__text p {
+          font-size: 1.8em;
+          text-align: left;
+          white-space: normal; }
+      #docentes .sectionHeader .docentes_header_content .docentes__img {
+        padding-top: 5%;
+        padding-right: 28px; }
+        #docentes .sectionHeader .docentes_header_content .docentes__img img {
+          width: 18em;
+          max-width: 490px;
+          display: block;
+          margin: auto; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #docentes .sectionContent {
+    padding-top: 10%; }
+    #docentes .sectionContent .docentes__cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard .img {
+        width: 30%; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard h3 {
+        font-size: 25px; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard p {
+        font-size: 16px; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  #docentes .sectionContent {
+    padding-top: 10%; }
+    #docentes .sectionContent .docentes__cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard img {
+        width: 45%; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard h3 {
+        font-size: 28px; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard p {
+        font-size: 18px; } }
+
+@media screen and (min-width: 1201px) {
+  #docentes .sectionContent {
+    padding-top: 5%; }
+    #docentes .sectionContent .docentes__cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard img {
+        width: 30%; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard h3 {
+        font-size: 28px; }
+      #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard p {
+        font-size: 18px; } }
