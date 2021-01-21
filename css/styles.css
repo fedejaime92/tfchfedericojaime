@@ -156,7 +156,7 @@ header {
           top: 7.812em;
           right: 7em; }
           #hero .heroContainer .heroBackground .heroContentContainer .heroIMG img {
-            width: 64.75em; }
+            width: 48.75em; }
             #hero .heroContainer .heroBackground .heroContentContainer .heroIMG img:hover {
               opacity: 0.8; }
         #hero .heroContainer .heroBackground .heroContentContainer .heroText {
@@ -178,11 +178,10 @@ header {
         flex-wrap: nowrap;
         padding-left: -0.062em; }
         #hero .heroContainer .heroBackground .heroContentContainer .heroIMG {
-          top: 7.812em;
+          top: 3.812em;
           right: 8em; }
           #hero .heroContainer .heroBackground .heroContentContainer .heroIMG img {
-            width: 86.75em;
-            max-width: 600px; }
+            width: 27.75em; }
             #hero .heroContainer .heroBackground .heroContentContainer .heroIMG img:hover {
               opacity: 0.8; }
         #hero .heroContainer .heroBackground .heroContentContainer .heroText {
@@ -909,9 +908,7 @@ header {
   align-items: center; }
   #bodCon .formHeader {
     text-align: center;
-    background-image: url("../images/consultasHeader.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to top, #F8BB95 0%, #E93F70 100%);
     border: 1px solid #FD9830;
     border-radius: 10px;
     width: 80%;

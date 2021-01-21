@@ -4,9 +4,7 @@
     align-items: center;
     .formHeader {
         text-align: center;
-        background-image: url('../images/consultasHeader.png');
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: linear-gradient(to top, $naranja1 0%, $naranja2 100%);
         border: 1px solid $colorPrimario;
         border-radius: 10px;
         width: 80%;
