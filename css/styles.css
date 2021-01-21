@@ -903,6 +903,73 @@ header {
       #docentes .sectionContent .docentes__cards .docentesCardsContainer .docCard p {
         font-size: 18px; } }
 
+#bodCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #bodCon .formHeader {
+    text-align: center;
+    background-image: url("../images/consultasHeader.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #FD9830;
+    border-radius: 10px;
+    width: 80%;
+    margin: 40px 0;
+    padding: 50px; }
+    #bodCon .formHeader h1 {
+      font-family: "Fjalla One", sans-serif;
+      color: #141414;
+      margin-bottom: 30px; }
+    #bodCon .formHeader p {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 700;
+      color: #ffff; }
+  #bodCon .consultaForm {
+    background-color: #FFD5AD;
+    border: 1px solid #FFD5AD;
+    border-radius: 10px;
+    width: 80%;
+    padding: 50px;
+    margin: 0 0 40px 0; }
+    #bodCon .consultaForm .formRow {
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: self-start;
+      flex-direction: column;
+      flex-wrap: wrap; }
+      #bodCon .consultaForm .formRow label {
+        margin-bottom: 15px;
+        font-weight: 700; }
+      #bodCon .consultaForm .formRow input[type="text"], #bodCon .consultaForm .formRow input[type="email"], #bodCon .consultaForm .formRow textarea {
+        background-color: #ffff;
+        border: 1px solid #7FBBF0;
+        border-radius: 5px;
+        width: 100%;
+        padding: 7px;
+        font-size: 14px; }
+        #bodCon .consultaForm .formRow input[type="text"]:invalid, #bodCon .consultaForm .formRow input[type="email"]:invalid, #bodCon .consultaForm .formRow textarea:invalid {
+          border: 1px solid #E22840;
+          color: #E22840;
+          box-shadow: none; }
+        #bodCon .consultaForm .formRow input[type="text"]:focus, #bodCon .consultaForm .formRow input[type="email"]:focus, #bodCon .consultaForm .formRow textarea:focus {
+          border: 2px solid #00B0EF;
+          box-shadow: none; }
+      #bodCon .consultaForm .formRow button {
+        width: 80%;
+        margin: auto;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #ffff;
+        text-align: center;
+        padding: 10px 40px;
+        background: linear-gradient(to top, #F8BB95 0%, #E93F70 100%);
+        border: 1px solid #ffff;
+        border-radius: 10px;
+        cursor: pointer; }
+        #bodCon .consultaForm .formRow button:hover {
+          background: linear-gradient(to top, #1A83DE 0%, #4242FF 100%); }
+
 footer .schoolInf {
   display: flex;
   justify-content: center;
@@ -927,3 +994,224 @@ footer .schoolInf {
     font-weight: 400;
     color: #ffff;
     text-align: center; }
+
+.pae-main-container .pae-header {
+  width: 100%;
+  height: 5.625em;
+  background: linear-gradient(to right, #E93F70, #FD9830); }
+
+.pae-title {
+  background: #ffff;
+  padding-top: 5%; }
+
+.pae-tit-p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  color: #7FBBF0;
+  text-align: left;
+  font-size: 1.875em; }
+
+.pae-tit-h1 {
+  font-family: "Fjalla One", sans-serif;
+  background-color: #1A83DE;
+  color: #ffff;
+  text-align: left;
+  font-size: 3em;
+  padding-left: 4%;
+  padding-right: 1%;
+  padding-bottom: 3%;
+  padding-top: 3%; }
+
+.pae-logo-institucional img {
+  width: 30%;
+  display: block;
+  margin: auto; }
+
+.school-name {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  color: #141414;
+  text-align: center;
+  font-size: 2em; }
+
+.pae-form {
+  background-color: #FD9830;
+  width: 100%;
+  height: 40.625em; }
+  .pae-form .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ffff;
+    margin: auto; }
+  .pae-form .main-form {
+    background-color: #ffff;
+    width: 400px;
+    height: 400px;
+    margin: 4em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14); }
+    .pae-form .main-form .sign {
+      padding-top: 40px;
+      color: #1A83DE;
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center; }
+    .pae-form .main-form .form1 {
+      padding-top: 40px; }
+      .pae-form .main-form .form1 .un {
+        width: 76%;
+        color: #263238;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 1px;
+        background: rgba(136, 126, 126, 0.04);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        box-sizing: border-box;
+        border: 2px solid rgba(0, 0, 0, 0.02);
+        margin-bottom: 50px;
+        margin-left: 46px;
+        text-align: center;
+        margin-bottom: 27px;
+        font-family: "Noto Sans", sans-serif; }
+        .pae-form .main-form .form1 .un:focus {
+          border: 2px solid rgba(0, 0, 0, 0.18) !important; }
+      .pae-form .main-form .form1 .pass {
+        width: 76%;
+        color: #263238;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 1px;
+        background: rgba(136, 126, 126, 0.04);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        box-sizing: border-box;
+        border: 2px solid rgba(0, 0, 0, 0.02);
+        margin-bottom: 50px;
+        margin-left: 46px;
+        text-align: center;
+        margin-bottom: 27px;
+        font-family: "Noto Sans", sans-serif; }
+        .pae-form .main-form .form1 .pass:focus {
+          border: 2px solid rgba(0, 0, 0, 0.18) !important; }
+      .pae-form .main-form .form1 .submit {
+        cursor: pointer;
+        border-radius: 5em;
+        color: #ffff;
+        background: linear-gradient(to right, #FD9830, #FFD5AD);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: "Noto Sans", sans-serif;
+        margin-left: 35%;
+        font-size: 13px;
+        font-weight: 700;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04); }
+        .pae-form .main-form .form1 .submit:hover {
+          background: linear-gradient(to right, #00B0EF, #1A83DE); }
+      .pae-form .main-form .form1 .forgot {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #7FBBF0;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: 1em;
+        padding-top: 5%; }
+      .pae-form .main-form .form1 a {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #7FBBF0;
+        text-decoration: none; }
+        .pae-form .main-form .form1 a:hover {
+          color: #141414;
+          text-decoration: underline;
+          text-decoration-color: #FFD5AD; }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .pae-main-container .pae-form .main-form {
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column; }
+    .pae-main-container .pae-form .main-form .form1 input {
+      margin-left: 40px;
+      margin-right: 60px; }
+    .pae-main-container .pae-form .main-form .form1 a {
+      margin-left: 85px; }
+    .pae-main-container .pae-form .main-form .form1 p {
+      margin-left: -69px; } }
+
+#bodContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #bodContacto .formHeader {
+    text-align: center;
+    background-image: linear-gradient(to top, #1A83DE 0%, #4242FF 100%);
+    border: 1px solid #00B0EF;
+    border-radius: 10px;
+    width: 80%;
+    margin: 40px 0;
+    padding: 50px; }
+    #bodContacto .formHeader h1 {
+      font-family: "Fjalla One", sans-serif;
+      color: #141414;
+      margin-bottom: 30px; }
+    #bodContacto .formHeader p {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 700;
+      color: #ffff; }
+  #bodContacto .consultaForm {
+    background-color: #7FBBF0;
+    border: 1px solid #7FBBF0;
+    border-radius: 10px;
+    width: 80%;
+    padding: 50px;
+    margin: 0 0 40px 0; }
+    #bodContacto .consultaForm .formRow {
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: self-start;
+      flex-direction: column;
+      flex-wrap: wrap; }
+      #bodContacto .consultaForm .formRow label {
+        margin-bottom: 15px;
+        font-weight: 700; }
+      #bodContacto .consultaForm .formRow input[type="text"], #bodContacto .consultaForm .formRow input[type="email"], #bodContacto .consultaForm .formRow textarea {
+        background-color: #ffff;
+        border: 1px solid #7FBBF0;
+        border-radius: 5px;
+        width: 100%;
+        padding: 7px;
+        font-size: 14px; }
+        #bodContacto .consultaForm .formRow input[type="text"]:invalid, #bodContacto .consultaForm .formRow input[type="email"]:invalid, #bodContacto .consultaForm .formRow textarea:invalid {
+          border: 1px solid #E22840;
+          color: #E22840;
+          box-shadow: none; }
+        #bodContacto .consultaForm .formRow input[type="text"]:focus, #bodContacto .consultaForm .formRow input[type="email"]:focus, #bodContacto .consultaForm .formRow textarea:focus {
+          border: 2px solid #4242FF;
+          box-shadow: none; }
+      #bodContacto .consultaForm .formRow button {
+        width: 80%;
+        margin: auto;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #00B0EF;
+        text-align: center;
+        padding: 10px 40px;
+        background: #ffff;
+        border: 1px solid #ffff;
+        border-radius: 10px;
+        cursor: pointer; }
+        #bodContacto .consultaForm .formRow button:hover {
+          background: linear-gradient(to top, #1A83DE 0%, #4242FF 100%);
+          color: #ffff; }

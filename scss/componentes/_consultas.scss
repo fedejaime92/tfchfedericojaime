@@ -1,0 +1,78 @@
+#bodCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .formHeader {
+        text-align: center;
+        background-image: url('../images/consultasHeader.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid $colorPrimario;
+        border-radius: 10px;
+        width: 80%;
+        margin: 40px 0;
+        padding: 50px;
+        h1 {
+            font-family: $titlesFont;
+            color: $colorOscuro;
+            margin-bottom: 30px;
+        }
+        p {
+            font-family: $bodyFont;
+            font-weight: 700;
+            color: $colorBlanco;
+        }
+    }
+    .consultaForm {
+        background-color: $colorPrimarioLight;
+        border: 1px solid $colorPrimarioLight;
+        border-radius: 10px;
+        width: 80%;
+        padding: 50px;
+        margin: 0 0 40px 0;
+        .formRow {
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: self-start;
+            flex-direction: column;
+            flex-wrap: wrap;
+            label {
+                margin-bottom: 15px;
+                font-weight: 700;
+            }
+            input[type="text"], input[type="email"], textarea {
+                background-color: $colorBlanco;
+                border: 1px solid $colorSecundarioLight;
+                border-radius: 5px;
+                width: 100%;
+                padding: 7px;
+                font-size: 14px;
+                &:invalid {
+                    border: 1px solid #E22840;
+                    color: #E22840;
+                    box-shadow: none;
+                }
+                &:focus {
+                    border: 2px solid $colorTerciario;
+                    box-shadow: none;
+                }
+            }
+            button {
+                width: 80%;
+                margin: auto;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: $colorBlanco;
+                text-align: center;
+                padding: 10px 40px;
+                background: linear-gradient(to top, $naranja1 0%, $naranja2 100%);
+                border: 1px solid $colorBlanco;
+                border-radius: 10px;
+                cursor: pointer;
+                &:hover {
+                    background: linear-gradient(to top, $colorSecundario 0%, $azulfuerte 100%);
+                }
+            }
+        }
+    }
+}
